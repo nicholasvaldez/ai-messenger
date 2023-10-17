@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aimessenger-dev-151704-authRole",
+      "UnauthRoleArn": "arn:aws:iam::755562371249:role/amplify-aimessenger-dev-151704-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::755562371249:role/amplify-aimessenger-dev-151704-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-aimessenger-dev-151704-deployment",
+      "UnauthRoleName": "amplify-aimessenger-dev-151704-unauthRole",
+      "StackName": "amplify-aimessenger-dev-151704",
+      "StackId": "arn:aws:cloudformation:us-east-2:755562371249:stack/amplify-aimessenger-dev-151704/245183c0-6d2a-11ee-b9f5-0ac347f9724b",
+      "AmplifyAppId": "d30ypbf0zscdqq"
+    },
+    "categories": {
+      "auth": {
+        "aimessengerfa40e29f": {}
+      }
+    }
+  }
+}
