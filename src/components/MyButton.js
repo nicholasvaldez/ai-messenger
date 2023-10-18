@@ -20,4 +20,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  buttonText: {
+    color: Colors.light,
+    fontSize: 16,
+    fontWeight: "bold",
+  },
 })

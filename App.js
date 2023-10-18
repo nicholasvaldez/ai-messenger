@@ -3,6 +3,7 @@ import { Button, StyleSheet, Text, View } from "react-native"
 import { Amplify, Auth } from "aws-amplify"
 import { withAuthenticator } from "aws-amplify-react-native"
 import awsconfig from "./src/aws-exports"
+import SignIn from "./src/components/SignIn"
 
 Amplify.configure(awsconfig)
 
@@ -16,14 +17,12 @@ const App = () => {
   }
   return (
     <View style={styles.container}>
-      <Text style={{ fontSize: 32, fontWeight: "bold" }}>Home Screen</Text>
-      <Button title="Sign out" onPress={signOut} />
-      <StatusBar style="auto" />
+      <SignIn />
     </View>
   )
 }
 
-export default withAuthenticator(App)
+export default App
 
 const styles = StyleSheet.create({
   container: {
