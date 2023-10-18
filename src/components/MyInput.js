@@ -23,7 +23,7 @@ export default function MyInput({
 
 const styles = StyleSheet.create({
   container: {
-    width: "90px",
+    width: "90%",
     height: 45,
     justifyContent: "center",
     margin: 10,
